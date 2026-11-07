@@ -79,3 +79,28 @@ if (edad7 >= 18) {
       default:
         console.log("opcion invalida");
   }
+  //ejercicio 6
+  let opcion1 = Number(prompt("ingrese el numero del mes"));
+  switch(opcion1){
+    case 1:
+      console.log("enero");
+      break;
+    case 2:
+      console.log("febrero");
+      break;
+    case 3:
+      console.log("marzo");
+      break;
+      case 4:
+      console.log("abril");
+      break;
+      case 5:
+      console.log("mayo");
+      break;
+    default:
+      console.log("mostrar el mes seleccionado");
+    }
+    //ejercicio 7
+    for(let i = 1; i <= 5; i++){
+      console.log("el valor de i es: " + i);
+    }
