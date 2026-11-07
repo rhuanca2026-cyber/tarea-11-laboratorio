@@ -67,4 +67,15 @@ if (edad7 >= 18) {
     console.log("reprobado");
   }
   //ejercicio 5
-  
+  //ejemplo
+  let opcion = Number(prompt("ingrese una opcion"));
+  switch(opcion){
+    case 1:
+      console.log("registrar");
+      break;
+    case 2:
+      console.log("modificar");
+      break;
+      default:
+        console.log("opcion invalida");
+  }
